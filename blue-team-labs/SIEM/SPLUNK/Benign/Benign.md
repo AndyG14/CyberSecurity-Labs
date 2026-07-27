@@ -35,17 +35,17 @@ One of the client’s IDS indicated a potentially suspicious process execution i
 
 As a first step, I configured the appropriate time range in Splunk to retrieve the events generated during the investigation period. The initial objective was to identify the presence of an imposter account by comparing the observed users against the list of legitimate company users.
 
-![Imposter](images/imposter.png)
+![Imposter](Images/imposter.png)
 
 The next phase focused on identifying the HR department user responsible for executing a scheduled task. By filtering the relevant Windows events, it was possible to determine which account had created and executed the scheduled task.
 
-![Scheduled Tasks](images/schtasks1.png)
-![Scheduled Tasks](images/schtasks2.png)
+![Scheduled Tasks](Images/schtasks1.png)
+![Scheduled Tasks](Images/schtasks2.png)
 
 The investigation then shifted to identifying whether a **Living-off-the-Land Binary** had been abused to download an external payload. To support the analysis, I consulted the **LOLBAS Project** (`https://lolbas-project.github.io`) to identify legitimate Windows binaries commonly abused by attackers for payload delivery and post-exploitation activities.
 
-![LOLBIN](images/lolbin1.png)
-![LOLBIN](images/lolbin2.png)
+![LOLBIN](Images/lolbin1.png)
+![LOLBIN](Images/lolbin2.png)
 
 By analyzing the last filtered event, it was possible to determine when the LOLBIN was executed, identify the third-party file-sharing service contacted by the compromised host, recover the downloaded filename, and reconstruct the complete URL used during the post-exploitation phase.
 
