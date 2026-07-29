@@ -82,7 +82,7 @@ The final level required creating a custom wordlist based on a known password pa
 
 Finally, I launched a password attack against the SSH service using **Hydra** together with the generated wordlist, successfully recovering the user's password.
 
-![level 5](images/level5-scrack.png)
+![level 5](images/level5-crack.png)
 
 ---
 
