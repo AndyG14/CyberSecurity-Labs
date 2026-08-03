@@ -10,5 +10,6 @@ This section contains writeups of hands-on labs focused on Blue Team
 - [Windows log analysis](Windows-log-analysis/)
 - [Cloud Security](Cloud-Security/)
 - [Thrat Analysis](Threat-Analysis/)
+- [Endpoint Forensics](Endpoint-Forensics/)
   
 *This directory is updating as I progress through new labs.*
