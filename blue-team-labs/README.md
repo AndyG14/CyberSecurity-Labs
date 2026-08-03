@@ -11,5 +11,6 @@ This section contains writeups of hands-on labs focused on Blue Team
 - [Cloud Security](Cloud-Security/)
 - [Thrat Analysis](Threat-Analysis/)
 - [Endpoint Forensics](Endpoint-Forensics/)
+- [SIEM](SIEM/)
   
 *This directory is updating as I progress through new labs.*
