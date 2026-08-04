@@ -1,8 +1,8 @@
-# Lab Title: 2026-02-28 - TRAFFIC ANALYSIS EXERCISE: EASY AS 123
+# Lab Title: EASY AS 123
 
-**Platform:** Malware Traffic Analysis
+**Platform:** Malware-Traffic-Analysis.net
 
-**Category:** Network Traffic Analysis / Wireshark  
+**Category:** Network Traffic Analysis 
 
 
 ---
