@@ -1,6 +1,7 @@
 # Lab Title: Lockdown Lab
 
 **Platform:** CyberDefenders
+
 **Category:** Network Analysis / Memory Dump Analysis / Malware Analysis
 
 ---
