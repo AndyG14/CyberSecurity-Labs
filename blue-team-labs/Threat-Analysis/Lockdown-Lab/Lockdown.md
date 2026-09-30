@@ -75,7 +75,7 @@ Next, I needed to identify the persistence mechanism. I started by listing the a
 
 I then determined the on-disk location of this executable using the `windows.filescan` plugin. The executable was located in the Windows *Startup Folder*, meaning it could be configured to execute automatically when a user logs on.
 
-This persistence technique maps to **MITRE ATT&CK T1547.001 — Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder**:
+This persistence technique maps to **MITRE ATT&CK T1547.001 Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder**:
 
 ![windows.pslist](images/7.png)
 
