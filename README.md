@@ -8,9 +8,10 @@ Hands-on cybersecurity labs documenting my learning journey across **Blue Team**
 
 ## Certifications
 - CompTIA Security+
+- TryHackMe SAL1
 - TryHackMe SEC0
 - TryHackMe SEC1
-- Currently studiyng for: CompTIA PenTest+ and TryHackMe SAL1
+- Currently studiyng for: CompTIA PenTest+
 
 ## Blue Team Labs
 - [Blue Team Labs](blue-team-labs/README.md)
